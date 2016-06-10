@@ -64,6 +64,10 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
+body {
+	background-color: white;
+}
+
 .container {
 	height: 100%;
 	width: 100%;
@@ -76,3 +80,63 @@ table {
 /* 	======================
 		TYPOGRAPHY
 	======================*/
+
+h1, h2, h3, p, a, li {
+	color: black;
+}
+
+h1 {
+	font-family: 'Halant', serif;
+	font-size: 40px;
+	margin-bottom: 20px;
+	line-height: 55px;
+}
+
+h2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 300;
+}
+
+.projects-right h1 {
+	line-height: 55px;
+}
+
+.projects-right a {
+}
+
+.info-left a:hover,
+.projects-right a:hover {
+	font-style: italic;
+	color: blue;
+}
+
+/* 	======================
+		LEFT
+	======================*/
+
+.info-left {
+	position: fixed;
+	top: 00px;
+	left: 0px;
+	bottom: 00px;
+	width: 35%;
+	overflow-y:scroll;
+}
+
+/* 	======================
+		RIGHT
+	======================*/
+
+.projects-right {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 00px;
+	width: 62%;
+	overflow-y:scroll; 
+}
+
+
+
