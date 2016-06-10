@@ -87,15 +87,15 @@ h1, h2, h3, p, a, li {
 
 h1 {
 	font-family: 'Halant', serif;
-	font-size: 40px;
+	font-size: 45px;
 	margin-bottom: 20px;
 	line-height: 55px;
 }
 
 h2 {
 	font-family: 'Rubik', sans-serif;
-	font-size: 24px;
-	line-height: 34px;
+	font-size: 26px;
+	line-height: 36px;
 	font-weight: 300;
 }
 
@@ -138,5 +138,13 @@ h2 {
 	overflow-y:scroll; 
 }
 
+/* 	======================
+		IMG
+	======================*/
 
 
+#thumb {
+	margin-top: 130px;
+	width: 40%;
+	margin-left: 30%;
+}
