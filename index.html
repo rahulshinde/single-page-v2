@@ -12,6 +12,7 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Halant:400,600|Rubik:500,300,300italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
 	</head>
 
 	<body>
@@ -40,12 +41,12 @@
 			<div class="projects-right">
 				<h1>
 					Past projects: 
-					<a id="hov1" href="">Branding / Visual Systems (2)</a> ,
-					<a id="hov2" href="">Curation / Research Initiatives (2)</a> ,
-					<a id="hov3" href="">Web Design (3)</a> ,
-					<a id="hov4" href="">Publication Design (2)</a> ,
-					<a id="hov5" href="">Motion Graphics / Animation (2)</a> ,
-					<a id="hov6" href="">Writing (1)</a>.
+					<a rel="group" class="link1" id="hov1" href="brand.html">Branding / Visual Systems (2)</a> ,
+					<a rel="group" class="link2" id="hov2" href="brand.html">Curation / Research Initiatives (2)</a> ,
+					<a rel="group" class="link3" id="hov3" href="">Web Design (3)</a> ,
+					<a rel="group" class="link4" id="hov4" href="">Publication Design (2)</a> ,
+					<a rel="group" class="link5" id="hov5" href="">Motion Graphics / Animation (2)</a> ,
+					<a rel="group" class="link6" id="hov6" href="">Writing (1)</a>.
 
 				</h1>
 
@@ -54,12 +55,49 @@
 					For u bailey
 				</h3>
 			</div>
+
+			<div class="content-back">
+				<div class="content-container">
+					
+				</div>
+
+			</div>
 			
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="js/main.js"></script>
 		<script src="js/hov.js"></script>
+		<script src="js/jquery.fancybox.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".link1").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '80%',
+					height		: 'auto',
+					autoSize	: false,
+					autoCenter	: false,
+					openEffect	: 'none',
+					closeEffect	: 'none'
+
+				});
+			});
+
+			$(document).ready(function() {
+				$(".link2").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '80%',
+					height		: 'auto',
+					autoSize	: false,
+					autoCenter	: false,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+					closeBtn : true
+
+				});
+			});
+		</script>
 	</body>
 
 </html>

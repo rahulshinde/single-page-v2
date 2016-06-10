@@ -1,4 +1,5 @@
 // HOV.JS
+// no jay-z here, sorry :(
 // changes img/description on link hover
 
 $(document).ready( function() {
