@@ -159,38 +159,10 @@ a:hover {
 	width: 60%;
 	height: 45%;
 	margin-left: 15%;
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/landing/1.jpg);
 	background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-}
-
-#thumb-hidden2,
-#thumb-hidden3,
-#thumb-hidden4,
-#thumb-hidden5,
-#thumb-hidden6,
-#thumb-hidden7 {
-	display: none;
-}
-
-#thumb-hidden2 {
-	background-image: url(../img/2.jpg);
-}
-#thumb-hidden3 {
-	background-image: url(../img/3.jpg);
-}
-#thumb-hidden4 {
-	background-image: url(../img/4.jpg);
-}
-#thumb-hidden5 {
-	background-image: url(../img/5.jpg);
-}
-#thumb-hidden6 {
-	background-image: url(../img/6.jpg);
-}
-#thumb-hidden7 {
-	background-image: url(../img/7.jpg);
 }
 
 /* 	======================
