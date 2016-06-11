@@ -6,9 +6,14 @@ $(document).ready( function() {
 
 	// hov1
 	$( '#hov1' )
-		.hover(function() {
-            $('#thumb').css('background-image', 'url(../img/landing/2.jpg)');  
+		.mouseover(function() { 
+            $('#thumb').attr("src", 'img/landing/2.jpg');
             $('#thumb-desc').html('Branding and Visual Systems');
+        })
+
+        .mouseout(function() {
+            $('#thumb').attr("src", 'img/landing/1.jpg');
+            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
         });
 
     // hov2

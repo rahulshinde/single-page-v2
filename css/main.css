@@ -156,13 +156,9 @@ a:hover {
 }
 
 #thumb {
+	margin-top: 0;
 	width: 60%;
-	height: 45%;
 	margin-left: 15%;
-	background-image: url(../img/landing/1.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
 }
 
 /* 	======================
