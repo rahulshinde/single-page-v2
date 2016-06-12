@@ -114,10 +114,6 @@ h3 {
 	color: blue
 }
 
-.projects-right h1 {
-	line-height: 55px;
-}
-
 .link {
 	text-decoration: underline;
 }
@@ -281,7 +277,7 @@ a:hover {
 		font-family: 'Halant', serif;
 		font-size: 50px;
 		margin-bottom: 20px;
-		line-height: 60px;
+		line-height: 70px;
 	}
 
 	h2 {
