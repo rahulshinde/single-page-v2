@@ -251,35 +251,6 @@ a:hover {
 		MEDIA QUERIES
 	=========================== */
 
-@media screen and (min-width: 1500px) {
-
-
-		/* img */
-
-	.pp-project img {
-		width: 60%;
-		margin-left: 20%;
-		margin-bottom: 15px;
-	}
-
-	.pp-project img.half-l {
-		float: left;
-		width: 30%;
-		margin-left: 20%;
-		margin-right: 0;
-		margin-bottom: 15px;
-	}
-
-	.pp-project img.half {
-		float: left;
-		margin-left: 0;
-		margin-right: 20%;
-		width: 30%;
-		margin-bottom: 15px;
-	}
-	
-}
-
 @media screen and (min-width: 1281px) {
 	
 	h1 {
@@ -308,15 +279,15 @@ a:hover {
 		/* img */
 
 	.pp-project img {
-		width: 70%;
-		margin-left: 15%;
+		width: 66%;
+		margin-left: 17%;
 		margin-bottom: 15px;
 	}
 
 	.pp-project img.half-l {
 		float: left;
-		width: 35%;
-		margin-left: 15%;
+		width: 33%;
+		margin-left: 17%;
 		margin-right: 0;
 		margin-bottom: 15px;
 	}
@@ -324,8 +295,8 @@ a:hover {
 	.pp-project img.half {
 		float: left;
 		margin-left: 0;
-		margin-right: 15%;
-		width: 35%;
+		margin-right: 17%;
+		width: 33%;
 		margin-bottom: 15px;
 	}
 	
