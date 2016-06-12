@@ -141,7 +141,8 @@ a:hover {
 	top: 0px;
 	left: 0px;
 	bottom: 00px;
-	width: 35%;
+	width: 37%;
+	padding-right: 3%;
 	overflow-y:scroll;
 	z-index: 1;
 }
@@ -155,7 +156,7 @@ a:hover {
 	top: 0px;
 	right: 0px;
 	bottom: 00px;
-	width: 62%;
+	width: 60%;
 	overflow-y:scroll; 
 	z-index: 1;
 }
