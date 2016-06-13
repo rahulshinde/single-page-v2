@@ -13,7 +13,7 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 
     // hov2
@@ -25,7 +25,7 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 
     // hov3
@@ -37,7 +37,7 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 
     // hov4
@@ -49,7 +49,7 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 
     // hov5
@@ -61,7 +61,7 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 
     // hov6
@@ -73,6 +73,6 @@ $(document).ready( function() {
 
         .mouseout(function() {
             $('#thumb').attr("src", 'img/landing/1.jpg');
-            $('#thumb-desc').html('Above images generated using Image-Outliner, a Python script written in early 2016');  
+            $('#thumb-desc').html('Above images generated using a Python script written in early 2016');  
         });
 });

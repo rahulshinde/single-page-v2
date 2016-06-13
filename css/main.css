@@ -141,6 +141,20 @@ a:hover {
 	padding-right: 3%;
 	overflow-y:scroll;
 	z-index: 1;
+	border-right: 1px solid black;
+}
+
+.info-left:hover {
+	cursor: ns-resize;
+}
+
+.arrow {
+	width: 44px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	left: 35%;
+	z-index: -1000;
 }
 
 /* 	======================
@@ -159,8 +173,8 @@ a:hover {
 
 #thumb {
 	margin-top: 0;
-	width: 36%;
-	margin-left: 32%;
+	width: 50%;
+	margin-left: 25%;
 }
 
 /* 	======================
@@ -299,5 +313,195 @@ a:hover {
 		width: 30%;
 		margin-bottom: 15px;
 	}
+
+	#thumb {
+		margin-top: 0;
+		width: 36%;
+		margin-left: 32%;
+	}
+
+	.arrow {
+		left: 36%;
+	}
 	
+}
+
+@media screen and (max-width: 1130px) {
+	
+	h1 {
+		font-family: 'Halant', serif;
+		font-size: 40px;
+		margin-bottom: 20px;
+		line-height: 50px;
+	}
+
+	h2 {
+		font-family: 'Rubik', sans-serif;
+		font-size: 24px;
+		line-height: 34px;
+		font-weight: 300;
+	}
+
+	h3 {
+		margin-top: 10px;
+		font-family: 'Rubik', sans-serif;
+		font-size: 8px;
+		font-weight: 500;
+		text-align: center;
+		color: blue
+	}
+
+		/* img */
+
+		#thumb {
+		margin-top: 0;
+		width: 60%;
+		margin-left: 20%;
+	}
+	
+}
+
+@media screen and (max-width: 1010px) {
+	
+	h1 {
+		font-family: 'Halant', serif;
+		font-size: 35px;
+		margin-bottom: 20px;
+		line-height: 45px;
+	}
+
+	h2 {
+		font-family: 'Rubik', sans-serif;
+		font-size: 21px;
+		line-height: 31px;
+		font-weight: 300;
+	}
+
+	h3 {
+		margin-top: 10px;
+		font-family: 'Rubik', sans-serif;
+		font-size: 8px;
+		font-weight: 500;
+		text-align: center;
+		color: blue
+	}
+
+		/* img */
+
+		#thumb {
+		margin-top: 0;
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.arrow {
+		left: 34%;
+	}
+	
+}
+
+@media screen and (max-width: 880px) {
+	
+	h1 {
+		font-family: 'Halant', serif;
+		font-size: 30px;
+		margin-bottom: 20px;
+		line-height: 40px;
+	}
+
+	h2 {
+		font-family: 'Rubik', sans-serif;
+		font-size: 19px;
+		line-height: 29px;
+		font-weight: 300;
+	}
+
+	h3 {
+		margin-top: 10px;
+		font-family: 'Rubik', sans-serif;
+		font-size: 8px;
+		font-weight: 500;
+		text-align: center;
+		color: blue
+	}
+
+		/* img */
+
+		#thumb {
+		margin-top: 0;
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.arrow {
+		left: 33%;
+	}
+	
+}
+
+@media screen and (max-width: 750px) {
+	
+	h1 {
+		font-family: 'Halant', serif;
+		font-size: 25px;
+		margin-bottom: 20px;
+		line-height: 35px;
+	}
+
+	h2 {
+		font-family: 'Rubik', sans-serif;
+		font-size: 16px;
+		line-height: 25px;
+		font-weight: 300;
+	}
+
+	h3 {
+		margin-top: 10px;
+		font-family: 'Rubik', sans-serif;
+		font-size: 8px;
+		font-weight: 500;
+		text-align: center;
+		color: blue
+	}
+
+	.info-left {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		bottom: 00px;
+		width: 37%;
+		padding-right: 3%;
+		overflow-y:scroll;
+		z-index: 1;
+	}
+
+	.info-left:hover {
+		cursor: ns-resize;
+	}
+
+	/* 	======================
+			RIGHT
+		======================*/
+
+	.projects-right {
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		bottom: 00px;
+		width: 60%;
+		overflow-y:scroll; 
+		z-index: 1;
+	}
+
+		/* img */
+
+		#thumb {
+		margin-top: 0;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	.arrow {
+		display: none;
+	}
 }
