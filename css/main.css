@@ -64,7 +64,14 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
 body {
+	height: 100%;
+	overflow: auto;
 	background-color: white;
 	cursor: crosshair;
 }
@@ -133,28 +140,13 @@ a:hover {
 	======================*/
 
 .info-left {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	bottom: 00px;
 	width: 37%;
 	padding-right: 3%;
-	overflow-y:scroll;
-	z-index: 1;
-	border-right: 1px solid black;
+	z-index: 1; 
 }
 
 .info-left:hover {
 	cursor: ns-resize;
-}
-
-.arrow {
-	width: 44px;
-	height: auto;
-	position: fixed;
-	bottom: 0;
-	left: 35%;
-	z-index: -1000;
 }
 
 /* 	======================
