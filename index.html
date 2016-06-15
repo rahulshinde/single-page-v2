@@ -52,14 +52,31 @@
 			</div>
 
 			<div class="projects-right">
-				<h1>
+				<h1 class="web-list">
 					Past projects: 
-					<a rel="group" class="link1" id="hov1" href="brand.html">Branding / Visual Systems (3)</a> ,
+					<a rel="group" class="link" id="hov1" href="brand.html">Branding / Visual Systems (3)</a> ,
 					<a rel="group" class="link2" id="hov2" href="curation.html">Curation / Research Initiatives (2)</a> ,
-					<a rel="group" class="link3" id="hov3" href="">Web Design / Experiments (3)</a> ,
-					<a rel="group" class="link4" id="hov4" href="">Publication Design (2)</a> ,
+					<a rel="group" class="link3" id="hov3" href="web.html">Web Design / Experiments (4)</a> ,
+					<a rel="group" class="link4" id="hov4" href="publication.html">Publication Design (2)</a> ,
 					<a rel="group" class="link5" id="hov5" href="">Motion Graphics / Animation (2)</a> ,
 					<a rel="group" class="link6" id="hov6" href="">Writing (1)</a>.
+
+				</h1>
+
+				<h1 class="mobile">
+					Past projects: 
+					<br>
+					<a href="brand.html">- Branding / Visual Systems (3)</a> ,
+					<br>
+					<a href="curation.html">- Curation / Research Initiatives (2)</a> ,
+					<br>
+					<a href="web.html">- Web Design / Experiments (3)</a> ,
+					<br>
+					<a href="">- Publication Design (2)</a> ,
+					<br>
+					<a href="">- Motion Graphics / Animation (2)</a> ,
+					<br>
+					<a href="">- Writing (1)</a>.
 
 				</h1>
 
@@ -85,7 +102,7 @@
 		<script src="js/jquery.fancybox.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$(".link1").fancybox({
+				$(".link").fancybox({
 					type: 'ajax',
 					fitToView	: false,
 					width		: '95%',
@@ -100,6 +117,34 @@
 
 			$(document).ready(function() {
 				$(".link2").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '95%',
+					height		: '92%',
+					autoSize	: false,
+					autoCenter	: true,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+
+				});
+			});
+
+			$(document).ready(function() {
+				$(".link3").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '95%',
+					height		: '92%',
+					autoSize	: false,
+					autoCenter	: true,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+
+				});
+			});
+
+			$(document).ready(function() {
+				$(".link4").fancybox({
 					type: 'ajax',
 					fitToView	: false,
 					width		: '95%',
