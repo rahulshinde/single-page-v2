@@ -56,8 +56,8 @@
 					<a rel="group" class="link2" id="hov2" href="curation.html">Curation / Research Initiatives (2)</a>,
 					<a rel="group" class="link3" id="hov3" href="web.html">Web Design / Experiments (4)</a>,
 					<a rel="group" class="link4" id="hov4" href="publication.html">Publication Design (2)</a>,
-					<a rel="group" class="link5" id="hov5" href="">Motion Graphics / Animation (2)</a>,
-					<a rel="group" class="link6" id="hov6" href="">Writing (1)</a>.
+					<a rel="group" class="link5" id="hov5" href="motion.html">Motion Graphics / Animation (4)</a>,
+					<a rel="group" class="link6" id="hov6" href="writing.html">Writing (1)</a>.
 
 				</h1>
 
@@ -70,11 +70,11 @@
 					<br>
 					<a href="web.html">- Web Design / Experiments (3)</a>,
 					<br>
-					<a href="">- Publication Design (2)</a>,
+					<a href="publication.html">- Publication Design (2)</a>,
 					<br>
-					<a href="">- Motion Graphics / Animation (2)</a>,
+					<a href="motion.html">- Motion Graphics / Animation (4)</a>,
 					<br>
-					<a href="">- Writing (1)</a>.
+					<a href="writing.html">- Writing (1)</a>.
 
 				</h1>
 
@@ -143,6 +143,34 @@
 
 			$(document).ready(function() {
 				$(".link4").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '95%',
+					height		: '92%',
+					autoSize	: false,
+					autoCenter	: true,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+
+				});
+			});
+
+			$(document).ready(function() {
+				$(".link5").fancybox({
+					type: 'ajax',
+					fitToView	: false,
+					width		: '95%',
+					height		: '92%',
+					autoSize	: false,
+					autoCenter	: true,
+					openEffect	: 'none',
+					closeEffect	: 'none',
+
+				});
+			});
+
+			$(document).ready(function() {
+				$(".link6").fancybox({
 					type: 'ajax',
 					fitToView	: false,
 					width		: '95%',

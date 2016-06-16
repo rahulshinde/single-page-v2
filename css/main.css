@@ -86,6 +86,18 @@ body {
 	color: rgba(255,255,255,0);
 }
 
+.large {
+	display: none;
+}
+
+.middle {
+	display: block;
+}
+
+.mobile-img {
+	display: none;
+}
+
 .mobile {
 	display: none;
 }
@@ -252,18 +264,36 @@ a:hover {
 	margin-bottom: 15px;
 }
 
+.pp-project img.half-r {
+	float: left;
+	margin-left: 0;
+	margin-right: 10%;
+	width: 40%;
+	margin-bottom: 15px;
+}
+
+.pp-project img.quart {
+	width: 32%;
+	margin-left: 34%;
+}
+
 .video-wrapper {
 	width:80%; 
 	height:100%; 
 	margin:0 10% 0% 10%;
 }
 
-.moses_iframe {
-	position:relative; 
-	padding-top: 67%;
+.video-wrapper2 {
+	width:80%; 
+	height:100%; 
+	margin:40px 10% 0% 10%;
 }
 
-.moses_iframe iframe {
+.moses_iframe iframe,
+.eutropia-iframe iframe,
+.synthetics-iframe iframe,
+.soph-iframe iframe,
+.sn1-iframe iframe {
 	position:absolute;
 	top:0;left:0;
 	width:100%; 
@@ -271,11 +301,50 @@ a:hover {
 }
 
 
+.moses_iframe {
+	position:relative; 
+	padding-top: 67%;
+}
+
+.eutropia-iframe {
+	position:relative; 
+	padding-top: 74.5%;
+}
+
+.synthetics-iframe {
+	position:relative; 
+	padding-top: 59%;
+}
+
+.soph-iframe {
+	position:relative; 
+	padding-top: 70%;
+}
+
+.sn1-iframe {
+	position:relative; 
+	padding-top: 60%;
+}
+
+
+
 /* 	===========================
 		MEDIA QUERIES
 	=========================== */
 
 @media screen and (min-width: 1300px) {
+
+	.large {
+		display: block;
+	}
+
+	.middle {
+		display: none;
+	}
+
+	.mobile-img {
+		display: none;
+	}
 	
 	h1 {
 		font-family: 'Halant', serif;
