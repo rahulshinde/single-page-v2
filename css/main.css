@@ -273,8 +273,8 @@ a:hover {
 }
 
 .pp-project img.quart {
-	width: 32%;
-	margin-left: 34%;
+	width: 40%;
+	margin-left: 30%;
 }
 
 .video-wrapper {
@@ -515,10 +515,27 @@ a:hover {
 	.arrow {
 		left: 33%;
 	}
+
+	.pp-project img.quart {
+		width: 50%;
+		margin-left: 25%;
+	}
 	
 }
 
 @media screen and (max-width: 750px) {
+
+		.large {
+		display: none;
+		}
+
+		.middle {
+			display: none;
+		}
+
+		.mobile-img {
+			display: block;
+		}
 	
 	h1 {
 		font-family: 'Halant', serif;
@@ -585,7 +602,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
 	.mobile {
 		display: block;
@@ -656,6 +673,11 @@ a:hover {
 		display: none;
 	}
 
+	a:link,
+	a:visited {
+		font-style: italic;
+	}
+
 	.back {
 		position: fixed;
 		top: 0;
@@ -663,8 +685,7 @@ a:hover {
 		font-family: 'Rubik', sans-serif;
 		font-size: 21px;
 		line-height: 21px;
-		text-align: center;
-		font-weight: 500;
+		font-style: italic;
 		margin-bottom: 0;
 		padding: 10px 0px 10px 0px;
 
